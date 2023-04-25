@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #202124;
+
+  height: 100%;
+}
+#header {
+  padding: 12px;
+  font-size: 600;
+  text-align: right;
+}
+
+#header .header_item {
+  display: inline-block;
+  margin-right: 12px;
+}
+#header .header_item a {
+  text-decoration: none;
+  color: #fff;
+}
+#header .header_item i {
+  color: #fff;
+  font-size: 20px;
+}
+#main {
+  height: 100%;
+  max-height: 506px;
+}
+
+#main .main__header {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+#main .main__search {
+  width: 100%;
+
+  max-width: 500px;
+  position: relative;
+  top: 115px;
+  margin: 0 auto;
+  border: 1px solid #5f6368;
+  min-height: 44px;
+  border-radius: 20px;
+}
+#main .main__search .search__icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #5f6368;
+}
+#main .main__search .microphone__icon {
+  position: absolute;
+  right: 43px;
+  top: 10px;
+  color: #5f6368;
+}
+#main .main__search .camera__icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #5f6368;
+}
+
+#main .main__buttons {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: 115px;
+
+  margin: 22px auto;
+  text-align: center;
+}
+#main .main__text {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: 115px;
+
+  margin: 22px auto;
+  text-align: center;
+}
+#main .main__text p,
+a {
+  display: inline-block;
+  font-size: small;
+}
+#main .main__text p {
+  color: #fff;
+  margin-right: 8px;
+}
+#main .main__text a {
+  text-decoration: none;
+  color: #4285f4;
+}
+footer {
+  padding: 16px;
+  background-color: #171717;
+}
+footer p {
+  color: #5f6368;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+footer .footer__items a {
+  color: #5f6368;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+footer .footer__items .footer__links {
+  border-top: 1px solid #5f6368;
+}
+footer .footer__items .footer__links .footer__links-right {
+  display: inline-block;
+  text-align: end;
+  width: 71%;
+}

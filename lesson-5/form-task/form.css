@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  display: inline-block;
+  background-color: #e4e4e4;
+  padding: 10px;
+}
+.form-container div {
+  margin: 20px;
+}
+.form-container form {
+  width: 100%;
+}
+.form-container form .input_field label {
+  display: inline-block;
+  width: 150px;
+}
+.form-container form .input_field input {
+  outline: none;
+  border: 1px solid rgb(213, 219, 217);
+  font-size: 18px;
+}
+.form-container form .input_field textarea {
+  resize: none;
+  border: 1px solid rgb(213, 219, 217);
+  height: 100px;
+}
+.buttons {
+  text-align: center;
+}
+
+.buttons input {
+  margin: 10px;
+}

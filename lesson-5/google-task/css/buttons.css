@@ -1,0 +1,32 @@
+.btn {
+  text-align: center;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 16;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+.btn-primary {
+  background-color: #4285f4;
+  color: #202124;
+  border: 2px solid #4285f4;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: #202124;
+  border: 2px solid #4285f4;
+  border-radius: 5px;
+}
+.btn-secondary {
+  background-color: #303134;
+  color: #fff;
+  border: 1px solid #303134;
+}
+.btn-secondary:hover {
+  background-color: #303134;
+  color: #fff;
+  border: 1px solid #fff;
+}
