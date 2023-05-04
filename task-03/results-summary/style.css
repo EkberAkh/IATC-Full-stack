@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  max-width: inherit;
+
+  height: 100%;
+}
+.left-card {
+  display: inline-block;
+  background: linear-gradient(to bottom, #6441fd, #322bea);
+  border-radius: 20px;
+  padding: 10px 12px;
+  max-width: 253px;
+}
+.left-card-header {
+  color: #c7bdff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.left-card > .result-number-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 130px;
+
+  margin: 1rem 52px;
+  background-image: linear-gradient(to bottom, #4827d0, #4734f0);
+  border-radius: 50%;
+}
+.left-card > .result-number-container > .score-number {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
+.left-card > .result-number-container > span {
+  color: #c7bdff;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.left-card > .result-text {
+  color: #fff;
+  font-size: 30px;
+}
+.left-card > .result-paragraph {
+  color: white;
+}
+.right-card {
+  display: inline-block;
+  padding: 21px 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.right-card > p {
+  display: inline-block;
+}
+.right-card > .right-card-header {
+  margin: 0 0 5px 10px;
+  float: left;
+  color: #363a4d;
+}
+.right-card > .plan {
+  margin: 12px;
+  padding: 0 15px;
+  background-color: #fff6f5;
+  border-radius: 26px;
+  clear: both;
+}
+.right-card > .plan > .right-card-numbers {
+  margin-left: 62px;
+}
+
+.right-card-button {
+  background-color: #303b59;
+  padding: 10px 80px;
+  margin-top: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.right-card-button:active {
+  background: linear-gradient(to bottom, #6140fb, #382eef);
+}
+.right-card > .plan-reaction {
+  color: #fa9695;
+  position: relative;
+  right: 5px;
+}
+.right-card > .plan-memory {
+  color: #ffcf6e;
+  background-color: #fffbf2;
+}
+.right-card > .plan-verbal {
+  color: #89efd7;
+  position: relative;
+  right: 6px;
+  background-color: #f2fbfa;
+}
+.right-card > .plan-visual {
+  color: #1c25a8;
+  position: relative;
+  right: 6px;
+  background-color: #f3f3fd;
+}
+.right-card > .plan > img,
+p,
+span {
+  display: inline-block;
+}
+.right-card > .plan > img {
+  position: relative;
+  top: 5px;
+}
