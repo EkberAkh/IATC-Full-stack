@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #d5e1ef;
+  text-align: center;
+}
+.qr-box {
+  display: inline-block;
+  background-color: #fff;
+  text-align: center;
+  max-width: 241px;
+  padding: 14px;
+  position: absolute;
+  border-radius: 12px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-height: 403px;
+}
+.qr-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+}
+.main-text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+}
+.second-text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
