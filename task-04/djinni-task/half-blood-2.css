@@ -1,0 +1,81 @@
+.half-blood-2 {
+  background-color: var(--white-3);
+  position: relative;
+}
+
+.half-blood-2 > .card {
+  color: var(--black);
+  background-color: var(--white);
+  height: 246px;
+  width: 366px;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+.half-blood-2 > .card > .logo {
+    height: 52px;
+    width: 59px;
+}
+
+.half-blood-2 > .card > .card-texts > h2 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
+.half-blood-2 > .card > .card-texts > span {
+  color: var(--gray);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.half-blood-2 > .card > .card-bottom {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.half-blood-2 > .card > .card-bottom > .card-bottom-texts > img {
+  position: relative;
+  top: 11px;
+  right: 5px;
+}
+.half-blood-2 > .card > .card-bottom > .card-bottom-texts > span {
+  color: var(--gray);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.half-blood-2 > .card > .card-bottom > .card-button > a {
+  text-decoration: none;
+  color: var(--main);
+  background-color: var(--black);
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.half-blood-2 > .designer-card {
+  position: absolute;
+  left: 50px;
+  bottom: -40px;
+}
+.half-blood-2 > .analyst-card {
+  position: absolute;
+  bottom: -40px;
+  left: 39%;
+}
+.half-blood-2 > .developer-card {
+  position: absolute;
+  left: 74%;
+  bottom: -40px;
+}

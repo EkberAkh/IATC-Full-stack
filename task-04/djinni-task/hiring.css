@@ -1,0 +1,98 @@
+.hiring {
+  background-color: var(--white-3);
+  padding: 32px;
+  display: flex;
+
+  position: relative;
+}
+
+.hiring > .content {
+  width: 49%;
+  height: 700px;
+  display: inline-block;
+}
+.hiring > .content {
+  color: var(--black);
+}
+.hiring > .content > h2 {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 18px;
+}
+.hiring > .content > .content-text {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.hiring > .content > .content-actions {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 589px;
+}
+.hiring > .content > .content-actions > .content-button {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--main);
+  background-color: var(--black);
+  padding: 14px 32px;
+  border-radius: 14px;
+}
+
+.hiring > .content > .content-actions > p {
+  border-radius: 50%;
+  letter-spacing: 2px;
+  color: var(--black-80);
+}
+.hiring > .photos {
+  display: flex;
+}
+.hiring > .photos > .wrapper {
+  background-image: url("https://images.unsplash.com/photo-1461800919507-79b16743b257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aHVtYW58ZW58MHx8MHx8&w=1000&q=80");
+  width: 120px;
+  height: 240px;
+  border-radius: 84%;
+  background-size: cover;
+}
+
+.hiring > .photos > .wrapper-1 {
+  position: absolute;
+  top: 42%;
+  right: 35%;
+}
+.hiring > .photos > .wrapper-2 {
+  position: absolute;
+  top: 26%;
+  left: 67%;
+}
+.hiring > .photos > .wrapper-3 {
+  position: absolute;
+  top: 6%;
+  left: 58%;
+}
+.hiring > .photos > .wrapper-4 {
+  position: absolute;
+  top: 59%;
+  left: 67%;
+}
+.hiring > .photos > .wrapper-5 {
+  position: absolute;
+  top: -8%;
+  left: 67%;
+}
+.hiring > .photos > .wrapper-6 {
+  position: absolute;
+  top: 44%;
+  left: 76%;
+}
+.hiring > .photos > .wrapper-7 {
+  position: absolute;
+  right: 17%;
+  top: 9%;
+}

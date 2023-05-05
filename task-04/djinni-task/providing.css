@@ -1,0 +1,96 @@
+.providing {
+  background-color: var(--white-3);
+  padding: 32px;
+}
+
+.providing > .photos > .wrapper {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://images.unsplash.com/photo-1461800919507-79b16743b257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aHVtYW58ZW58MHx8MHx8&w=1000&q=80");
+  background-position: -200px -140px;
+  position: relative;
+}
+
+.providing > .photos > .wrapper::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--white-3);
+  top: 200px;
+  left: 200px;
+}
+
+.providing > .photos {
+  position: relative;
+  width: 49%;
+  height: 700px;
+  display: inline-block;
+  top: 302px;
+}
+
+.providing > .photos > .wrapper:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(52deg);
+}
+.providing > .photos > .wrapper:nth-child(2) {
+  position: absolute;
+  top: 255px;
+  left: 190px;
+  transform: rotate(22deg);
+}
+
+.providing > .content {
+  width: 49%;
+  height: 700px;
+  display: inline-block;
+}
+.providing > .content {
+  color: var(--black);
+}
+.providing > .content > h2 {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 18px;
+}
+.providing > .content > .content-text {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.providing > .content > .content-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 589px;
+}
+.providing > .content > .content-actions > .content-button {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--main);
+  background-color: var(--black);
+  padding: 12px 26px;
+  border-radius: 14px;
+}
+.providing > .content > .content-actions > img {
+  background-color: var(--black);
+  border-radius: 50%;
+  padding: 8px;
+}
+.providing > .content > .content-actions > p {
+  border-radius: 50%;
+  letter-spacing: 2px;
+  color: var(--black-80);
+}

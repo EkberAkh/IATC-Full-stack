@@ -1,0 +1,78 @@
+.testimonials {
+  background-color: var(--white-3);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  
+}
+
+.testimonials > h2 {
+  font-size: 60px;
+  color: var(--black);
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  padding-top: 80px;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+.testimonials > p {
+  color: var(--gray);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.testimonials > .profiles {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials > .profiles > .profile {
+  height: 70px;
+  width: 70;
+  border-radius: 50px;
+  border: 3px solid var(--white);
+  margin-right: 10px;
+}
+.testimonials > .profiles > .active-profile {
+  margin-right: 10px;
+}
+
+.testimonials > .opinion-box {
+  background-color: var(--black);
+  padding: 60px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 69%;
+  border-radius: 16px;
+}
+.testimonials > .opinion-box > h2 {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.testimonials > .opinion-box > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--gray);
+  margin-bottom: 16px;
+}
+
+.testimonials > .opinion-box > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+.testimonials > .opinion-box > .stars > img {
+  height: 28px;
+  width: 28px;
+}

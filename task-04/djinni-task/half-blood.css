@@ -1,0 +1,45 @@
+.half-blood {
+  background-color: var(--white-3);
+}
+.half-blood > .card > .half-blood-img {
+  height: 80px;
+  width: 85px;
+  background-color: var(--black);
+  padding: 16px;
+  border-radius: 8px;
+  size: 30px;
+  margin-right: 12px;
+}
+.half-blood > .card {
+  color: var(--black);
+  background-color: var(--white);
+  height: 246px;
+  width: 366px;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-blood .card .half-blood-texts h2 {
+  font-size: 34px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+.half-blood > .job-card {
+  position: absolute;
+  left: 50px;
+  bottom: -115px;
+}
+.half-blood > .startup-card {
+  position: absolute;
+  bottom: -115px;
+  left: 39%;
+}
+.half-blood > .talent-card {
+  position: absolute;
+  left: 74%;
+  bottom: -115px;
+}

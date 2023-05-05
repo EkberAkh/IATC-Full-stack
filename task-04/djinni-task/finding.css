@@ -1,0 +1,46 @@
+.finding {
+  background-color: var(--white-3);
+  padding: 32px;
+  display: flex;
+}
+
+.finding > .content {
+  width: 49%;
+  height: 700px;
+  display: inline-block;
+  background-color: var(--black);
+  padding: 32px;
+  border-radius: 5px;
+  max-height: 500px;
+}
+.finding > .content {
+  color: var(--white);
+}
+.finding > .content > h2 {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 18px;
+}
+.finding > .content > .content-text {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.finding > .logo {
+  width: 49%;
+}
+
+.finding > .logo > img {
+  /* width: 62px;
+  height: 56px;
+  padding: 12px;
+  border-radius: 50%; */
+  position: relative;
+
+  left: 50%;
+  top: 13%;
+}
