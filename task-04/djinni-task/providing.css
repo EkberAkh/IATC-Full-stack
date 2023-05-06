@@ -73,8 +73,9 @@
   flex-direction: row;
   justify-content: space-around;
   max-width: 589px;
+  align-items: center;
 }
-.providing > .content > .content-actions > .content-button {
+.providing > .content > .content-actions > .content-button a {
   text-decoration: none;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
@@ -84,8 +85,7 @@
   padding: 12px 26px;
   border-radius: 14px;
 }
-.providing > .content > .content-actions > img {
-  background-color: var(--black);
+.providing > .content > .content-actions > .content-img {
   border-radius: 50%;
   padding: 8px;
 }

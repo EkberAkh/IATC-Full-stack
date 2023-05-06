@@ -39,6 +39,12 @@ button {
   background-color: var(--black-80);
 }
 
+.vertical-line-2 {
+  display: inline-block;
+  height: 41px;
+  width: 1px;
+  background-color: var(--gray);
+}
 .half-blood {
   height: 20px;
   position: relative;
