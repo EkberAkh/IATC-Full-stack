@@ -1,0 +1,357 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .feature {
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 1fr 195px;
+    gap: 60px;
+  }
+  .plans {
+    width: calc(1440px - 600px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .sponsors {
+    width: calc(1440px - 600px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .animate.fade-in {
+    animation-name: fade-in !important;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .track {
+    width: calc(1440px - 705px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .feature {
+    display: flex;
+    margin-right: 0;
+    gap: 100px;
+
+    align-items: center;
+
+    flex-direction: column;
+  }
+  .feature > ul {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .devices {
+    width: calc(1440px - 700px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .plans {
+    flex-direction: column;
+    gap: 50px;
+    width: calc(1440px - 700px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .sponsors {
+    flex-direction: column;
+
+    align-items: center;
+    gap: 75px;
+    width: calc(1440px - 700px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .sponsors > img {
+    height: 52px;
+    width: 180px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .animate.fade-in {
+    animation-name: fade-in !important;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .hero {
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .btn-group {
+    flex-direction: column;
+
+    width: 100%;
+    align-items: stretch;
+  }
+  .track {
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .feature {
+    display: flex;
+    margin-right: 0;
+    gap: 100px;
+
+    align-items: center;
+
+    flex-direction: column;
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+  }
+  .feature > ul {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .feature > img {
+    max-width: 467px;
+  }
+  .access {
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .devices {
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .supercharge {
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .plans {
+    flex-direction: column;
+    gap: 50px;
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .plans > .plan {
+    margin-right: 0;
+  }
+
+  .sponsors {
+    flex-direction: column;
+
+    align-items: center;
+    gap: 75px;
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .sponsors > img {
+    height: 52px;
+    width: 180px;
+  }
+  .clipboard {
+    width: calc(1440px - 1007px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .icon-texts {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    gap: 20px;
+  }
+  .icon-texts > div {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  .icon-texts > div > a {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .animate.fade-in {
+    animation-name: fade-in !important;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .hero {
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .btn-group {
+    flex-direction: column;
+
+    width: 100%;
+    align-items: stretch;
+  }
+  .track {
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .feature {
+    display: flex;
+    margin-right: 0;
+    gap: 100px;
+
+    align-items: center;
+
+    flex-direction: column;
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+  }
+  .feature > ul {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .feature > img {
+    max-width: 304px;
+  }
+  .access {
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .devices {
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .supercharge {
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .plans {
+    flex-direction: column;
+    gap: 50px;
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .plans > .plan {
+    margin-right: 0;
+  }
+
+  .sponsors {
+    flex-direction: column;
+
+    align-items: center;
+    gap: 75px;
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .sponsors > img {
+    height: 52px;
+    width: 180px;
+  }
+  .clipboard {
+    width: calc(1440px - 1140px);
+    padding: 30px 0;
+    margin: 80px auto;
+    text-align: center;
+    gap: 23px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .icon-texts {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    gap: 20px;
+  }
+  .icon-texts > div {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  .icon-texts > div > a {
+    margin-bottom: 0;
+  }
+}
