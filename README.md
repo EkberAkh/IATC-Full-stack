@@ -1,3 +1,3 @@
 # IATC-Full-stack
 
-  clipboard-landing task: https://dulcet-sundae-011f3a.netlify.app/ 
+  clipboard-landing task:https://clipboard-landingg.netlify.app/
