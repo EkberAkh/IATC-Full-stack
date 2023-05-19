@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f9f9fd;
+}
+.site-nav,
+.row {
+  margin-right: 0;
+
+  padding-top: 38px;
+
+  > .col-6 > .nav-button {
+    background: #13183f;
+    border-radius: 28px;
+    padding: 14px 32px;
+
+    color: #fff;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    border: none;
+    transition-duration: 0.3s;
+  }
+  > .col-6 > .nav-button:hover {
+    background-color: #666ca3;
+  }
+}
+
+.hero > .col-lg-6 > img {
+  max-width: 591px;
+}
+
+.hero > .col-lg-6 > h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 71px;
+  margin-bottom: 24px;
+  color: #13183f;
+}
+
+.hero > .col-lg-6 > p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 447px;
+  color: #83869a;
+}
+.hero > .col-lg-6 > button {
+  padding: 19px 32px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 32px;
+  color: #ffffff;
+  border: none;
+}
+.hero > .col-lg-6 > button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+.plans > .col-lg-4 > .active-plan {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  padding: 64px 32px 138px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+.plans > .col-lg-4 > .plan {
+  background-color: #ffffff;
+  padding: 64px 32px 40px;
+  border-radius: 15px;
+  margin: 16px;
+
+  > img {
+    position: relative;
+
+    bottom: 90px;
+  }
+  > h2 {
+    margin: 0 0 24px;
+  }
+  > p {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    color: #83869a;
+  }
+  > a {
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    transition-duration: 0.3s;
+    color: #f74780;
+  }
+  > a:hover {
+    color: #ffa7c3;
+  }
+}
+
+.site-footer {
+  background-color: #13183f;
+  padding: 38px 165px;
+  margin-top: 140px;
+  > .col-lg-6 > .footer-button {
+    padding: 14px 32px;
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    border-radius: 28px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    border: none;
+    color: #ffffff;
+  }
+  > .col-lg-6 > .footer-button:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  }
+}

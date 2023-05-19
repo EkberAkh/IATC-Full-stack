@@ -1,0 +1,49 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .hero > .col-lg-6 > img {
+    max-width: 499px;
+  }
+  .hero > .col-lg-6 > h2 {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero > .col-lg-6 > img {
+    max-width: 371px;
+  }
+  .hero > .col-lg-6 > h2 {
+    font-size: 40px;
+  }
+  .hero > .col-lg-6 > p {
+    font-size: 16px;
+  }
+  .hero > .col-lg-6 > button {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .site-nav > .col-6 > .nav-button {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .site-footer {
+    padding: 38px 30px;
+  }
+  .plans > .col-lg-4 > .active-plan {
+    padding: 64px 32px 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .site-footer {
+    padding: 38px 30px;
+  }
+  .plans > .col-lg-4 > .active-plan {
+    padding: 64px 32px 60px;
+  }
+  .site-footer > .col-6 > .footer-button {
+    padding: 14px 25px;
+  }
+}
