@@ -1,0 +1,59 @@
+.about-shop {
+  color: black;
+  padding: 60px 0;
+}
+
+.about-shop > .container > .section-title > h2 {
+  color: var(--third-color);
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.about-shop-2 {
+  color: black;
+}
+.about-shop-2
+  > .container
+  > .row
+  > .wrapper
+  > .col-12
+  > .about-left
+  > .section-title
+  > h2 {
+  color: var(--black);
+  font-size: 24px;
+}
+p {
+  font-size: 14px;
+}
+.about-shop-2 > .container > .row > .wrapper {
+  align-items: center;
+}
+.about-shop-2 > .container > .row > .wrapper > .col-12 > .about-right > img {
+  width: 100%;
+}
+.about-shop-2 > .container > .row > .wrapper > .col-12 > .about-left,
+.about-right {
+  margin-bottom: 28px;
+}
+.about-bottom {
+  color: var(--black);
+  padding-top: 30px;
+}
+.about-bottom > .container > p {
+  max-width: 740px;
+  margin: 0 auto 50px;
+}
+.about-bottom > .container > .row > .col-12 > .about-bottom-box {
+  border: 1px solid black;
+  padding: 12px 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.about-bottom > .container > .row > .col-12 > .about-bottom-box > h3 {
+  position: relative;
+}
+.about-bottom > .container > .row > .col-12 > .about-bottom-box > img {
+  position: absolute;
+  right: 12px;
+}

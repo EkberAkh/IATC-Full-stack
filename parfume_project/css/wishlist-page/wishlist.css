@@ -1,0 +1,26 @@
+.login {
+  color: black;
+  padding: 80px 0;
+  margin: 80px 0;
+}
+.login > .container {
+  display: flex;
+  justify-content: center;
+}
+.login > .container > .login-box {
+  padding: 14px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid var(--border-color);
+}
+.login > .container > .login-box > span {
+  margin: 10px 0;
+}
+.login > .container > .login-box > a {
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}

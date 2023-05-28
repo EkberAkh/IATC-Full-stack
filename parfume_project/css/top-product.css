@@ -1,0 +1,9 @@
+.top-product {
+  top: 39px;
+  background-color: transparent;
+}
+.top-product > .bestseller-box > .bestseller-titles > .right-button > button {
+  padding: 8px 18px;
+  font-size: 14px;
+  height: 39px;
+}

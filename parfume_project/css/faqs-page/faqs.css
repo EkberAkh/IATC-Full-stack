@@ -1,0 +1,10 @@
+.faqs {
+  padding: 70px 0;
+  background-color: var(--second-color);
+  color: black;
+}
+
+.about-shop > .container > .row > .col-12 > .accordion > .accordion-item {
+  margin-bottom: 24px;
+  border: 1px solid var(--border-color);
+}

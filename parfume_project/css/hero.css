@@ -1,0 +1,32 @@
+.hero {
+  background: url("../images/Coal_JE4_BE3.webp");
+  min-height: 766px;
+}
+
+.hero > .container > .hero-items {
+  max-width: 490px;
+  padding-top: 170px;
+}
+.hero > .container > .hero-items > h2:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.hero > .container > .hero-items > h2:nth-child(2) {
+  font-size: 40px;
+
+  margin-bottom: 24px;
+}
+.hero > .container > .hero-items > p {
+  margin-bottom: 44px;
+}
+.hero > .container > .hero-items > .buttons > button:nth-child(1) {
+  margin-right: 10px;
+  max-width: 120px;
+  padding: 5px 8px;
+}
+
+.hero > .container > .hero-items > .buttons > button:nth-child(2) {
+  padding: 5px 8px;
+  max-width: 190px;
+}

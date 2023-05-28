@@ -1,0 +1,48 @@
+.testimonials {
+  padding-top: 80px;
+  color: black;
+}
+.testimonials > .container > .row {
+  gap: 26px;
+}
+.testimonials > .container > .row > .active {
+  background-color: var(--theme-color);
+  color: var(--white);
+}
+.testimonials > .container > .row > .card {
+  width: 22%;
+  padding: 10px;
+}
+.testimonials
+  > .container
+  > .row
+  > .card
+  > .review-card
+  > .review-card-content
+  > h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.testimonials
+  > .container
+  > .row
+  > .card
+  > .review-card
+  > .review-card-content
+  > .review-img {
+  margin-bottom: 8px;
+}
+.testimonials > .container > .section-title {
+  margin-bottom: 36px;
+}
+
+.testimonials > .container > .section-title > h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--third-color);
+}
+.testimonials > .container > .section-title > p {
+  max-width: 540px;
+  margin: 15px auto 0;
+  font-family: var(--second-font);
+}

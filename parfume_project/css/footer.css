@@ -1,0 +1,119 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  background: #f2f2f2;
+  padding: 75px 0 40px;
+}
+
+.footer > .container > .footer-all {
+  color: var(--black);
+  gap: 16px;
+}
+.footer > .container > .footer-all > .footer-first > .footer-items > .logo {
+  margin-bottom: 24px;
+}
+.footer > .container > .footer-all > .footer-first {
+  max-width: 370px;
+  flex: 0 0 370px;
+  padding: 0;
+}
+.footer > .container > .footer-all > .footer-first > .footer-items > p {
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-family: var(--second-font);
+}
+.footer > .container > .footer-all > .footer-first > .footer-items > .social {
+  font-size: 20px;
+}
+.footer
+  > .container
+  > .footer-all
+  > .footer-first
+  > .footer-items
+  > .social
+  > a {
+  color: var(--white);
+  background-color: var(--theme-color);
+  padding: 8px 8px 4px;
+  border-radius: 50%;
+  transition-duration: 0.3s;
+}
+.footer
+  > .container
+  > .footer-all
+  > .footer-first
+  > .footer-items
+  > .social
+  > a:hover {
+  background-color: var(--third-color);
+}
+.footer > .container > .footer-all > .footer-links > .link-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 14px;
+}
+.footer > .container > .footer-all > .footer-links > .link-items > h4 {
+  font-size: 18px;
+}
+.footer > .container > .footer-all > .footer-links > .link-items > a {
+  color: var(--black);
+  text-decoration: none;
+}
+.footer > .container > .footer-all > .footer-last {
+  flex: 0 0 300px;
+  padding: 0;
+}
+.footer > .container > .footer-all > .footer-last > .footer-last-items > h3 {
+  font-size: 26px;
+  margin-bottom: 22px;
+}
+.footer
+  > .container
+  > .footer-all
+  > .footer-last
+  > .footer-last-items
+  > form
+  > .input-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--theme-color);
+  padding: 14px;
+  border-radius: 30px;
+}
+.footer
+  > .container
+  > .footer-all
+  > .footer-last
+  > .footer-last-items
+  > form
+  > .input-box
+  > input {
+  background-color: transparent;
+  border: none;
+}
+.footer
+  > .container
+  > .footer-all
+  > .footer-last
+  > .footer-last-items
+  > form
+  > .input-box
+  > input:focus {
+  outline: none;
+}
+.footer
+  > .container
+  > .footer-all
+  > .footer-last
+  > .footer-last-items
+  > form
+  > .input-box
+  > button {
+  font-size: 20px;
+  border-radius: 50%;
+  color: var(--white);
+  background-color: var(--theme-color);
+  border: none;
+  padding: 6px 9px 2px;
+}

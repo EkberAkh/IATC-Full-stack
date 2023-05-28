@@ -1,0 +1,28 @@
+.news {
+  color: black;
+}
+
+.news > .container > h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.news > .container > .row > .col-12 {
+  margin-bottom: 18px;
+}
+.news > .container > .row > .col-12 > .card-content > .card-img > a > img {
+  max-width: 100%;
+}
+.news > .container > .row > .col-12 > .card-content > .card-items {
+  border: 1px solid var(--border-color);
+  padding: 6px;
+}
+.news > .container > .row > .col-12 > .card-content > .card-items > p {
+  font-size: 13px;
+}
+.news > .container > .row > .col-12 > .card-content > .card-items > h3 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+.news > .container > .row > .col-12 > .card-content > .card-items > span {
+  margin-bottom: 16px;
+}

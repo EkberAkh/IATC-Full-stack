@@ -1,0 +1,137 @@
+.contact {
+  padding: 70px 0;
+
+  background-color: var(--second-color);
+  color: black;
+}
+
+.contact-page {
+  color: black;
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > .section-header {
+  margin-bottom: 26px;
+}
+.contact-page > .container > .row > .contact-page-right {
+  margin-bottom: 20px;
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form {
+  padding: 24px 20px;
+  border: 2px solid black;
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form
+  > .row
+  > .col-12
+  > .form-box {
+  margin-bottom: 15px;
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form
+  > .row
+  > .col-12
+  > .form-box
+  > label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: medium;
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form
+  > .row
+  > .col-12
+  > .form-box
+  > input,
+textarea {
+  position: relative;
+  border: 1px solid var(--border-color);
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background: var(--white);
+  font-size: 14px;
+  line-height: 1;
+  color: var(--black);
+  font-family: var(--first-font);
+  outline: none;
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form
+  > .row
+  > .contact-down
+  > .col-12
+  > .terms
+  > label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form
+  > .row
+  > .contact-down
+  > .col-12
+  > .terms
+  > label
+  > span {
+  font-family: var(--second-font);
+  font-size: 14px;
+
+  > a {
+    color: black;
+  }
+}
+.contact-page
+  > .container
+  > .row
+  > .contact-page-right
+  > .contact-right-content
+  > form
+  > .row
+  > .contact-down
+  > .col-12
+  > .terms
+  > input {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  left: 8px;
+}

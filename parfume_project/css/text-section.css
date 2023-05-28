@@ -1,0 +1,18 @@
+.text-section {
+  background-color: var(--white);
+}
+
+.text-section > .container > .row > .col-md-6 > .items {
+  padding: 80px 10px 0;
+  > h2 {
+    font-size: 46px;
+    color: var(--third-color);
+    text-align: right;
+  }
+  > p {
+    color: var(--black);
+    text-align: right;
+    font-family: var(--second-font);
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,13 @@
+.delivery {
+  padding: 70px 0;
+  background-color: var(--second-color);
+  color: black;
+}
+.delivery-body {
+  padding-top: 80px;
+  color: black;
+}
+.delivery-body > .container > h3 {
+  font-size: 18px;
+  font-weight: bold;
+}

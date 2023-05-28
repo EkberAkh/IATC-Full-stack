@@ -1,0 +1,57 @@
+.main-custom-banner {
+  padding-top: 80px;
+}
+.main-custom-banner > .container > .custom-banner {
+  position: relative;
+  top: 130px;
+}
+.main-custom-banner > .container > .custom-banner > .custom-banner-img {
+  color: var(--black);
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  z-index: 2;
+  -webkit-border-radius: 10px;
+
+  position: relative;
+}
+.main-custom-banner > .container > .custom-banner > .custom-banner-img > img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-custom-banner
+  > .container
+  > .custom-banner
+  > .custom-banner-img
+  > .col-md-6 {
+  padding: 20px;
+}
+.main-custom-banner
+  > .container
+  > .custom-banner
+  > .custom-banner-img
+  > .custom-banner-texts
+  > h2 {
+  font-size: 44px;
+}
+.main-custom-banner
+  > .container
+  > .custom-banner
+  > .custom-banner-img
+  > .custom-banner-texts
+  > p {
+  font-family: var(--secondary-font);
+}

@@ -1,0 +1,23 @@
+.aroma-2 {
+  background: url("../images/banner-2.webp");
+  position: relative;
+  padding: 160px 0 60px;
+  background-repeat: no-repeat;
+  color: var(--white);
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-top: -110px;
+  max-height: 367px;
+}
+
+.aroma-2 > .container > .row > .col-md-6 > .items {
+  max-width: 600px;
+  padding: 0 15px;
+  > h2 {
+    font-size: 46px;
+  }
+  > p {
+    font-family: var(--second-font);
+    font-size: 14px;
+  }
+}

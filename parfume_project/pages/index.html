@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- title -->
+    <title>Parfume</title>
+    <!-- links -->
+    <link rel="stylesheet" href="../css/global.css" />
+  </head>
+  <script>
+    document.addEventListener("scroll", (event) => {
+      const scrollTop =
+        document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop > 0) {
+        document.getElementById("navigation-bar").classList.add("sticky");
+      } else {
+        document.getElementById("navigation-bar").classList.remove("sticky");
+      }
+    });
+  </script>
+  <body>
+    <section class="work-days">
+      <div class="container">
+        <div class="col-6">
+          <p class="d-flex p-0 m-0">
+            <strong class="mx-1">7 Days A Week </strong> From 9:00 Am To 7:00 Pm
+          </p>
+        </div>
+        <div class="col-6"></div>
+      </div>
+    </section>
+    <!-- nav -->
+    <div class="navigation-bar" id="navigation-bar">
+      <div class="container">
+        <div class="navigation-row d-flex align-items-center">
+          <div class="logo col">
+            <a href="index.html">
+              <img src="../images/logo_100x.webp" alt="" />
+            </a>
+          </div>
+          <div
+            class="nav-items col d-flex align-items-center justify-content-between pt-2"
+          >
+            <div class="nav-links d-flex align-items-center">
+              <a href="#">Parfume <img src="../images/bottle.png" alt="" /></a>
+              <a href="collections.html">Shop All</a>
+              <div class="pages-link">
+                <a href="#"> Pages</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li class="">
+                      <a href="about.html">About us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="faqs.html">faqs </a>
+                    </li>
+                    <li class="">
+                      <a href="news.html">News </a>
+                    </li>
+
+                    <li class="">
+                      <a href="contact.html">Contact us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="article.html">Article page </a>
+                    </li>
+
+                    <li class="">
+                      <a href="collections.html">Collection List </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pages-link">
+                <a href="#">Services</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li class="">
+                      <a href="about.html">About us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="contact.html">Contact Us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="privacy.html">Privacy Policy </a>
+                    </li>
+
+                    <li class="">
+                      <a href="wishlist.html">Wishlist </a>
+                    </li>
+
+                    <li class="">
+                      <a href="delivery.html">Delivery Information </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="nav-logos d-flex align-items-center">
+              <a class="srch" href="#"
+                ><i class="srch fa-solid fa-magnifying-glass"></i
+              ></a>
+              <a href="#"><i class="user fa-regular fa-user"></i></a>
+              <a href="#"
+                >Cart: 0 Items
+                <i class="fa-solid fa-bag-shopping"
+                  ><div class="red-circle">0</div></i
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-items col">
+          <h2>Welcome to our store</h2>
+          <h2>Fall in love with <strong>amazing aromas</strong></h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy.
+          </p>
+          <div class="buttons row">
+            <button class="btn-1 btn-primary-white col">Go To Shop</button>
+            <button class="btn-1 btn-primary-white-outline col">
+              Show More Products
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bestseller -->
+    <section class="bestseller container">
+      <div class="bestseller-box">
+        <div class="bestseller-titles d-flex justify-content-between">
+          <h2>Bestseller Product</h2>
+          <div class="right-titles d-flex">
+            <a href="#">Fragrances</a>
+
+            <a href="#">Shop</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="card">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- aroma -->
+    <section class="aroma">
+      <div class="container p-0">
+        <div class="aroma-items row">
+          <div class="left-items col-lg-6 col-12">
+            <h2>Fall in love with <strong>amazing aromas</strong></h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <span>Select Scent:</span>
+            <div class="buttons col">
+              <button class="btn-primary-pink-outline">Deo</button>
+              <button class="btn-primary-pink-outline">Room Fresher</button>
+              <button class="btn-primary-pink-outline">Body Sprey</button>
+            </div>
+          </div>
+          <div class="right-items col-lg-6 col-12 d-flex">
+            <img src="../images/product-banner-right.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- category -->
+    <section class="category">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h2>Fall in love with amazing aromas</h2>
+            <div class="mans-special d-flex align-items-center">
+              <div class="man-special-img">
+                <img src="../images/article-blog-1.webp" alt="" />
+              </div>
+              <div class="man-special-content">
+                <h3>Mans Special</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy.
+                </p>
+                <button class="btn-primary-pink">SHOW MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="mans-special d-flex align-items-center">
+              <div class="man-special-img">
+                <img src="../images/article-blog-3.webp" alt="" />
+              </div>
+              <div class="man-special-content">
+                <h3>Women Special</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy.
+                </p>
+                <button class="btn-primary-pink">SHOW MORE</button>
+              </div>
+            </div>
+            <div class="show-more d-flex align-content-baseline">
+              <h3>Show more products</h3>
+              <button class="btn-primary-white">Go To Collections</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top product -->
+    <section class="bestseller top-product container">
+      <div class="bestseller-box">
+        <div class="bestseller-titles d-flex justify-content-between">
+          <h2>Top Products</h2>
+          <div class="right-button d-flex">
+            <button class="btn-primary-pink">Go to Shop</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="card second">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- aroma 2  -->
+    <section class="aroma-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="items">
+              <h2>Fall in love with <strong>amazing aromas</strong></h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text section -->
+    <section class="text-section">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-6"></div>
+          <div class="col-md-6 col-12">
+            <div class="items text-right">
+              <h2>Fall in love with <strong>amazing aromas</strong></h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main-blog -->
+    <section class="main-blog">
+      <div class="container">
+        <div class="main-article-blog row">
+          <div class="col-md-4 col-12">
+            <div class="article-blog">
+              <div class="article-blog-image">
+                <img src="../images/article-blog-1.webp" alt="" />
+              </div>
+              <div class="article-blog-content">
+                <h2>Fall in love with <strong>amazing aromas</strong></h2>
+                <a href="#">Show more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="article-blog">
+              <div class="article-blog-content active">
+                <h2>Fall in love with <strong>amazing aromas</strong></h2>
+                <a href="#">Show more</a>
+              </div>
+              <div class="article-blog-image">
+                <img src="../images/article-blog-2.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="article-blog">
+              <div class="article-blog-image">
+                <img src="../images/article-blog-3.webp" alt="" />
+              </div>
+              <div class="article-blog-content">
+                <h2>Fall in love with <strong>amazing aromas</strong></h2>
+                <a href="#">Show more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products -->
+    <section class="bestseller top-product container">
+      <div class="bestseller-box">
+        <div class="bestseller-titles d-flex justify-content-between">
+          <h2>Fall in love with amazing aromas</h2>
+          <div class="right-button d-flex">
+            <button class="btn-primary-pink">Go to Shop</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="card">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="upper-items d-flex justify-content-between">
+              <div class="discount">46%</div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <a href="#" class="d-flex align-items-center justify-content-center"
+              ><div class="image"></div
+            ></a>
+            <h2 class="text-center">Good Vibes Only Perfume</h2>
+            <h3 class="text-center">Scent WorkDo</h3>
+            <div
+              class="prices d-flex align-items-center justify-content-center"
+            >
+              <h3 class="col m-0">$299.00</h3>
+              <s class="col">$550.00</s>
+            </div>
+
+            <div class="capacities d-flex justify-content-center">
+              <div class="active text-center capacity col">30 ml</div>
+              <div class="text-center capacity col">45 ml</div>
+              <div class="text-center capacity col">85 ml</div>
+            </div>
+            <div class="lower-items d-flex">
+              <button class="btn btn-primary-pink">
+                Add To Cart <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-title text-center justify-content-center">
+          <h2>Testimonials</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="active card">
+            <div class="review-card text-center">
+              <div class="review-card-content">
+                <div class="review-img">
+                  <img src="../images/review.png" alt="" />
+                  <span>4.5/5.0</span>
+                </div>
+                <h3>Fantastic!</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <h4>John Doe, Client</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="review-card text-center">
+              <div class="review-card-content">
+                <div class="review-img">
+                  <img src="../images/review.png" alt="" />
+                  <span>4.5/5.0</span>
+                </div>
+                <h3>Fantastic!</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <h4>John Doe, Client</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="review-card text-center">
+              <div class="review-card-content">
+                <div class="review-img">
+                  <img src="../images/review.png" alt="" />
+                  <span>4.5/5.0</span>
+                </div>
+                <h3>Fantastic!</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <h4>John Doe, Client</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="review-card text-center">
+              <div class="review-card-content">
+                <div class="review-img">
+                  <img src="../images/review.png" alt="" />
+                  <span>4.5/5.0</span>
+                </div>
+                <h3>Fantastic!</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <h4>John Doe, Client</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- custom banner -->
+    <section class="main-custom-banner">
+      <div class="container">
+        <div class="custom-banner row">
+          <div class="d-flex custom-banner-img">
+            <img src="../images/custom-banner.webp" alt="" />
+            <div class="col-md-6  col-12 custom-banner-texts">
+              <h2>Fall in love with <strong>amazing aromas</strong></h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about blog -->
+    <section class="about-blog">
+      <div class="container">
+        <div class="section-title text-center justify-content-center">
+          <h2>About <strong>the blog</strong></h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy.
+          </p>
+        </div>
+        <div class="posters">
+          <div class="row justify-content-center">
+            <div class="poster">
+              <div class="poster-content">
+                <div class="poster-img">
+                  <a href="#"><img src="../images/2_1.webp" alt="" /></a>
+                  <span>Article</span>
+                </div>
+                <div class="poster-details">
+                  <h6>May 14, 2022</h6>
+                  <h4><a href="#">Donec placerat, mistaken idea</a></h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem...
+                  </p>
+                  <div class="blog-button d-flex">
+                    <button class="btn-primary-pink">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="poster">
+              <div class="poster-content">
+                <div class="poster-img">
+                  <a href="#"><img src="../images/1_1.webp" alt="" /></a>
+                  <span>Article</span>
+                </div>
+                <div class="poster-details">
+                  <h6>May 14, 2022</h6>
+                  <h4><a href="#">Donec placerat, mistaken idea</a></h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem...
+                  </p>
+                  <div class="blog-button d-flex">
+                    <button class="btn-primary-pink">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="poster">
+              <div class="poster-content">
+                <div class="poster-img">
+                  <a href="#"><img src="../images/2_1.webp" alt="" /></a>
+                  <span>Article</span>
+                </div>
+                <div class="poster-details">
+                  <h6>May 14, 2022</h6>
+                  <h4><a href="#">Donec placerat, mistaken idea</a></h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem...
+                  </p>
+                  <div class="blog-button d-flex">
+                    <button class="btn-primary-pink">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="poster">
+              <div class="poster-content">
+                <div class="poster-img">
+                  <a href="#"><img src="../images/1_1.webp" alt="" /></a>
+                  <span>Article</span>
+                </div>
+                <div class="poster-details">
+                  <h6>May 14, 2022</h6>
+                  <h4><a href="#">Donec placerat, mistaken idea</a></h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem...
+                  </p>
+                  <div class="blog-button d-flex">
+                    <button class="btn-primary-pink">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-all row">
+          <div class="footer-first col">
+            <div class="footer-items">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="../images/logo_100x.webp" alt=""
+                /></a>
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy.
+              </p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links col">
+            <div class="link-items">
+              <h4>NAVIGATION:</h4>
+              <a href="#">Nike Parfume</a>
+              <a href="#">Roses Parfume</a>
+              <a href="#">Body Parfume</a>
+              <a href="#">Cacharel Parfume</a>
+            </div>
+          </div>
+          <div class="footer-links col">
+            <div class="link-items">
+              <h4>ABOUT US:</h4>
+              <a href="#">Parfumes</a>
+              <a href="#">Brands</a>
+              <a href="#">Shop</a>
+              <a href="#">Bestsellers</a>
+            </div>
+          </div>
+          <div class="footer-last col">
+            <div class="footer-last-items">
+              <h3>Subscribe to <strong>Newsletter</strong></h3>
+              <form action="#" id="contact">
+                <div class="input-box">
+                  <input
+                    type="email"
+                    placeholder="Enter email address..."
+                    required
+                  />
+                  <button type="submit">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

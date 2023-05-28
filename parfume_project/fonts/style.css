@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Regular.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Light.ttf") format("opentype");
+  font-weight: Light;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Medium.ttf") format("opentype");
+  font-weight: Medium;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url("./JosefinSans-Light.ttf") format("opentype");
+  font-weight: Light;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url("./JosefinSans-Medium.ttf") format("opentype");
+  font-weight: Medium;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url("./JosefinSans-Regular.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url("./JosefinSans-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

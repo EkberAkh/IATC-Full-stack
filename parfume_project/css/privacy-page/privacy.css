@@ -1,0 +1,9 @@
+.privacy {
+  padding: 70px 0;
+  background-color: var(--second-color);
+  color: black;
+}
+
+.policy {
+  color: black;
+}
