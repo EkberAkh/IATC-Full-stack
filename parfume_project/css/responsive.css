@@ -131,6 +131,10 @@
   }
   .aroma > .container > .aroma-items {
     margin: 0;
+    padding: 0;
+  }
+  .aroma > .container > .aroma-items > .right-items > img {
+    max-width: 298px;
   }
   .about-us {
     padding: 150px 0 !important;
@@ -226,6 +230,17 @@
   .nav-links > div > .menu-dropdown > ul > li {
     list-style: none;
     margin-bottom: 2px;
+  }
+  .testimonials {
+    /* padding-top: 80px; */
+    color: black;
+    padding: 80px 14px 0px !important;
+  }
+  .hero {
+    background: url(../images/Coal_JE4_BE3.webp);
+    min-height: 766px;
+    background-position-x: center;
+    padding: 0px 10px !important;
   }
 }
 
@@ -393,6 +408,12 @@
   }
   .privacy {
     padding-top: 150px;
+  }
+  .footer {
+    position: relative;
+    z-index: 1;
+    background: #f2f2f2;
+    padding: 75px 9px 40px;
   }
 }
 
