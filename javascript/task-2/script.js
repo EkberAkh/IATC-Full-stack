@@ -39,7 +39,7 @@
 //     return sumStr
 // }
 
-// console.log(repeatStr3Times('Hello world',4))
+// console.log(repeatStr3Times('Hello world',3))
 
 // 
 
