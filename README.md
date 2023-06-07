@@ -4,4 +4,4 @@
   
   skilled-elearning-landing-page task: https://skilled-elearning-landing-pagee.netlify.app/
   
-  parfume project: https://parfume-ekberakhh.netlify.app/
+  parfume project: https://parfume-pr-ekberakh.netlify.app/
