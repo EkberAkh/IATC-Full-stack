@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Dictionary web app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-items d-flex">
+          <div class="left-items">
+            <div class="logo">
+              <a href="#"><img src="assets/images/logo.svg" alt="" /></a>
+            </div>
+          </div>
+          <div class="right-items d-flex">
+            <div class="fonts">
+              <select id="font-select">
+                <option value="Sans Serif">Sans Serif</option>
+                <option value="Serif">Serif</option>
+                <option value="Mono">Mono</option>
+              </select>
+            </div>
+            <div class="toggle">
+              <label id="toggleDark" for="dark-mode" class="bright toggle-slider"> </label>
+              <label  for="dark-mode" class="toggle-moon">
+                <a href="#"><img src="assets/images/icon-moon.svg" alt="" /></a>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="search">
+        <input
+          id="inputWord"
+          type="text"
+          placeholder="Search for any word..."
+        />
+        <label class="search-label">
+          <button type="button" id="button">
+            <img src="assets/images/icon-search.svg" alt="" />
+          </button>
+        </label>
+      </div>
+
+      <main class="main">
+        <div class="keyword d-flex" id="keyword">
+         
+          <audio id="audio" ></audio>
+        </div>
+        <div id="error" class="error d-none">
+          <div class="error-emoji"><span>😔</span></div>
+          <h2 class="error-title">No Definitions Found</h2>
+          <p class="error-message">
+            Sorry pal, we couldn't find definitions for the word you were
+            looking for.
+          </p>
+        </div>
+        <div id="definitions" class="definitions">
+         
+          <!-- ---- -->
+         
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

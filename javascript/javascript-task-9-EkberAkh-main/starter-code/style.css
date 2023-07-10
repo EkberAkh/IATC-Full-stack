@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 737px;
+  padding: 60px 25px;
+}
+*hr{
+height: 1px;
+color: #ccc;
+}
+.head-2 {
+  font-size: 30px;
+}
+.head-3{
+    font-size: 22px;
+}
+.container > .header > .header-items {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > .header > .header-items > .right-items {
+  gap: 40px;
+  align-items: center;
+}
+.container > .header > .header-items > .right-items > .fonts > select {
+  position: relative;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-content: end;
+  grid-auto-flow: column;
+  gap: 1.125rem;
+  max-width: 8.5rem;
+  padding-block: 1.125em;
+  padding-left: 0.5rem;
+  padding-right: 1.125rem;
+  margin-right: 1.5rem;
+  text-transform: capitalize;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #a745ed;
+}
+.container > .header > .header-items > .right-items > .fonts {
+  border-right: 1px solid #ccc;
+}
+.container > .header > .header-items > .right-items > .toggle {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.container > .header > .header-items > .right-items > .toggle > .toggle-slider {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    135deg,
+    hsl(0deg, 0%, 46%),
+    hsl(0deg, 0%, 46%)
+  );
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+.container > .header > .header-items > .right-items > .toggle>a:hover{
+    color: #a745ed;
+}
+.container
+  > .header
+  > .header-items
+  > .right-items
+  > .toggle
+  > .toggle-slider::before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  transition: 0.25s ease-in-out;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.container > .search {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+}
+.container > .search > input {
+  padding-block: 1.25rem;
+  padding-inline: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.container > .search > input:focus{
+    outline: none !important;
+  border: 2px solid #a745ed;
+}
+.container > .search > input::placeholder{
+    font-weight: 700;
+    font-size: 22px;
+}
+.container > .search > label {
+  position: absolute;
+  display: flex;
+  place-items: center;
+  top: 0;
+  bottom: 0;
+  right: 18px;
+}
+.container > .search > label > button {
+  border: none;
+  background-color: transparent;
+}
+.container > .main {
+  padding-top: 40px;
+}
+.container > .main > .keyword {
+  justify-content: space-between;
+}
+.container > .main > .keyword > .keyword-info {
+  display: flex;
+  flex-direction: column;
+}
+.container > .main > .keyword > .keyword-info > p {
+  color: #a745ed;
+  font-size: 20px;
+}
+
+.container > .main > .keyword > .keyword-audio > button {
+  border: 0;
+  background: transparent;
+}
+
+.container > .main > .keyword > .keyword-audio > button:hover {
+  fill: purple;
+  color: #fff;
+}
+.container > .main > .definitions > .definition_type {
+  font-style: italic;
+  margin-right: 14px;
+  display: flex;
+  gap: 17px;
+}
+.container > .main > .definitions > .definition_type::after {
+  content: "";
+  align-self: center;
+  background-color: #e8e8e8;
+
+  height: 1px;
+
+  width: 84%;
+}
+
+
+.container > .main > .definitions >.definition_meaning{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.container > .main > .definitions>ul{
+    list-style: none;
+}
+.container > .main > .definitions>ul>li::before{
+    content: "•"; color: #a745ed;
+  display: inline-block; width: 1em;
+  margin-left: -1em
+}
+.container > .main > .definitions>.definition-meaning-list{
+    font-size: 18px;
+}
+
+.container > .main >.definitions>.synonyms{
+
+    align-items: baseline;
+    gap: 8px;
+}
+
+.container > .main >.definitions>.synonyms>.definition-synonym {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    color: hsl(0deg, 0%, 46%);
+}
+.container > .main >.definitions>.synonyms>.synonym-word{
+    color: #a745ed;
+    text-decoration: none;
+}
+.container > .main >.definitions>.definition-source{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+.container > .header > .header-items > .right-items > .toggle > .toggle-dark{
+  position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background: #a745ed;
+   
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+.container > .header > .header-items > .right-items > .toggle > .toggle-dark::after{
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  
+  right: 3px;
+  bottom: 3px;
+  transition: 0.25s ease-in-out;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.container > .header > .header-items > .right-items > .toggle > .toggle-dark::before{
+  background-color: transparent;
+}
+
+.container > .main > .keyword > .error{
+  flex-direction: column;
+  align-items: center;
+}
+.container > .main > .keyword > .error>.error-emoji>span{
+  font-size: 30px;
+}
+
+.container > .main > .keyword > .error>p{
+  font-size: 18px;
+}
