@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    /* CSS styles for the table */
+    body {
+      padding: 14px;
+    }
+    .inputs {
+      margin: 14px;
+    }
+    .pagination {
+      margin-top: 20px;
+    }
+
+    button {
+      margin-right: 14px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+  <body id="body">
+    <div class="inputs">
+      <input
+        class="search-input"
+        id="search-input"
+        type="text"
+        placeholder="Search users..."
+      />
+      <button id="search-button" type="button">Search</button>
+      <select name="" id="options">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+      </select>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Gender</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Birth Date</th>
+          <th>IP Address</th>
+          <th>MAC Address</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <!-- 
+        <td>johnsmith</td>
+          <td>John</td>
+          <td>Smith</td>
+          <td>Male</td>
+          <td>john@example.com</td>
+          <td>30</td>
+          <td>1992-08-12</td>
+          <td>192.168.1.100</td>
+          <td>AB:CD:EF:01:23:45</td> -->
+        </tr>
+        <!-- Add more table rows as needed -->
+      </tbody>
+      <tbody id="tbody2"></tbody>
+    </table>
+
+    <nav id="pagination" class="pagination" aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
