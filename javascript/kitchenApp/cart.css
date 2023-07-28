@@ -1,0 +1,72 @@
+header>.header-img{
+    margin-top: 30px;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/steak_with_mushroom_sauce.jpg');
+}
+
+.food-name{
+    text-align: left;
+}
+
+
+
+.container>.receipt{
+    justify-content: space-between;
+}
+.container>.receipt>p{
+font-size: 14px;
+color: rgb(129, 125, 125);
+}
+
+.container>.weight{
+    font-size: 14px;
+    color: rgb(129, 125, 125);
+}
+
+.container>.composition{
+    border-top:1px solid black ;
+    border-bottom: 2px solid gray;
+    margin-top: 26px;
+    padding: 6px;
+    display: flex;
+    gap: 20px;
+    >.comp{
+        display: flex;
+        flex-direction: column;
+        >span{
+            color: rgb(129, 125, 125);
+        }
+    }
+}
+
+.container>.add-to-meal>.added-meal{
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.container>.add-to-meal>.price{
+    text-align: right;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.container>.add-to-cart{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+.container>.add-to-cart>.count>button{
+border: none;
+background-color: transparent;
+}
+
+.container>.add-to-cart>.addToCartBtn{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 4px 30px;
+background-color: transparent;
+}

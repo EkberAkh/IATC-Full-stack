@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo">The Kitchen</div>
+          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="d-flex special-offers">
+          <div class="col-7"></div>
+
+          <div class="col-5 discount d-flex">
+            <h2>50%</h2>
+            <span>off Fish</span>
+
+            <button class="see-more">SEE MORE</button>
+          </div>
+        </section>
+
+        <div class="slider-container">
+          <div class="slider">
+            <a href="#" class="slide">
+              <img src="images/meal_29_2_1.jpg" alt="Food 1" />
+              <span class="food-name">Breakfast</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/steak_with_mushroom_sauce.jpg" alt="Food 2" />
+              <span class="food-name">Lunch</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/apricot_chicken.jpg" alt="Food 3" />
+              <span class="food-name">Soup</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/wild_herb_baked_dory.jpg" alt="Food 4" />
+              <span class="food-name">Salad</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/meal_29_2_1.jpg" alt="Food 5" />
+              <span class="food-name">Pasta</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/steak_with_mushroom_sauce.jpg" alt="Food 6" />
+              <span class="food-name">Kids Menu</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/apricot_chicken.jpg" alt="Food 7" />
+              <span class="food-name">Snacks</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/wild_herb_baked_dory.jpg" alt="Food 8" />
+              <span class="food-name">Deserts</span>
+            </a>
+            <a href="#" class="slide">
+              <img src="images/apricot_chicken.jpg" alt="Food 9" />
+              <span class="food-name">Beverages</span>
+            </a>
+
+            <!-- Add more slides as needed -->
+          </div>
+          <div class="d-flex buttons">
+            <button id="prevBtn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="nextBtn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="d-flex about-food">
+          <div class="food-name active col-3"><span >Lunch</span></div>
+          <div class="food-img col-9">
+            <img src="images/meal_29_2_1.jpg" alt="" />
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <ul class="footer-menu">
+          <li>
+            <a class="d-flex flex-column" href="index.html">
+              <i class="fa-solid fa-mug-hot"></i>
+              <span>Menu</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex flex-column" href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Cart</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex flex-column" href="person.html">
+                <i class="fa-solid fa-user"></i>
+              <span>Person</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex flex-column" href="favorites.html">
+                <i class="fa-solid fa-heart"></i>
+              <span>Favorites</span>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then((registration) => {
+              console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch((error) => {
+              console.error('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,63 @@
+.user{padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user>i{
+    font-size: 34px;
+}
+
+.user-num{
+margin: 12px 0;
+
+>span{
+    
+    font-size: 28px;
+    font-weight: 500;
+}
+}
+
+.points{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 6px;
+    margin: 12px;
+    padding: 6px 0;
+    margin-bottom: 80px;
+}
+.points>span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.history{
+    border-bottom: 1px solid black;
+    
+    padding:8px;
+    margin-bottom: 18px;
+}
+.history>span{
+
+}
+.history>.main-event{
+  
+    justify-content: space-between;
+    > i{
+        font-size: 30px;
+    }
+}
+
+.log-out{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 6px;
+    margin: 12px;
+    padding: 6px 0;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.log-out>span{
+    font-size: 18px;
+    font-weight: 600;
+}

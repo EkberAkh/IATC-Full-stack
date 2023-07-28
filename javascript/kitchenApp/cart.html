@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-img"></div>
+    </header>
+    <div class="container">
+      <div class="food-name">
+        <h2>Chicken with mushrooms</h2>
+      </div>
+      <div class="receipt d-flex">
+        <p>Chicken, Mushrooms, Brocoli, Vegetables, Salt</p>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="weight">
+        <span>The Weight: 180gr</span>
+      </div>
+
+      <div class="composition">
+        <div class="comp">
+          <strong>Cal</strong>
+          <span>230kC</span>
+        </div>
+        <div class="comp">
+          <strong>Carbs</strong>
+          <span>132 g</span>
+        </div>
+        <div class="comp">
+          <strong>Fat</strong>
+          <span>9 g</span>
+        </div>
+        <div class="comp">
+          <strong>Protein</strong>
+          <span>134 g</span>
+        </div>
+      </div>
+
+      <div class="add-to-meal">
+        <h3>ADD TO A MEAL:</h3>
+        <div class="added-meal d-flex">
+          <span>Topping</span>
+          <div class="price">
+            <span>$1.25</span>
+            <input type="checkbox" name="" id="" />
+          </div>
+        </div>
+        <div class="added-meal d-flex">
+          <span>Garlic</span>
+          <div class="price">
+            <span>$2.35</span>
+            <input type="checkbox" name="" id="" />
+          </div>
+        </div>
+        <div class="price">
+          <span>$6,0</span>
+        </div>
+      </div>
+
+      <div class="add-to-cart">
+        <div class="count">
+          <button>
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <span>1</span>
+          <button>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <button class="addToCartBtn">
+            ADD TO CART
+        </button>
+      </div>
+    </div>
+
+    <script src="cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
