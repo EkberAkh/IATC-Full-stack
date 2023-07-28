@@ -33,7 +33,7 @@ function prevSlide() {
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
-
+//PWA
 const CACHE_NAME = 'my-pwa-cache-v1';
 const urlsToCache = [
   '/',
@@ -55,3 +55,61 @@ self.addEventListener('fetch', (event) => {
     caches.match(event.request).then((response) => response || fetch(event.request))
   );
 });
+//-------------------------
+
+const slideButtons = document.querySelectorAll('.slide');
+  const foodNameSpans = document.querySelectorAll('.food-name');
+
+
+  function handleSlideButtonClick(event) {
+ 
+    event.preventDefault();
+
+
+    const clickedIndex = Array.from(slideButtons).indexOf(event.currentTarget);
+
+
+    foodNameSpans.forEach((span, index) => {
+      if (index === clickedIndex) {
+        span.style.color = 'black';
+      } else {
+        span.style.color = ''; 
+      }
+    });
+  }
+
+
+  slideButtons.forEach(button => {
+    button.addEventListener('click', handleSlideButtonClick);
+  });
+
+  const foodNameDiv = document.querySelector('.food-name span');
+  const foodImgDiv = document.querySelector('.food-img img');
+
+
+  function handleSlideButtonClick(event) {
+    event.preventDefault();
+
+   
+    const foodName = event.currentTarget.querySelector('.food-name').innerText;
+    const foodImageSrc = event.currentTarget.querySelector('img').src;
+
+    
+    foodNameDiv.innerText = foodName;
+    foodImgDiv.src = foodImageSrc;
+
+  
+    const foodNameSpans = document.querySelectorAll('.food-name');
+    foodNameSpans.forEach(span => {
+      if (span === event.currentTarget.querySelector('.food-name')) {
+        span.style.color = 'black';
+      } else {
+        span.style.color = ''; 
+      }
+    });
+  }
+
+  
+  slideButtons.forEach(button => {
+    button.addEventListener('click', handleSlideButtonClick);
+  });

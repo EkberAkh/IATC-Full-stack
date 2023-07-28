@@ -99,7 +99,9 @@ body {
         
       }
   }
-  
+  .slide>.span-active{
+    color: black;
+  }
   .slide {
     flex: 0 0 33.33%;
     text-align: center;
