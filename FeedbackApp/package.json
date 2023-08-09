@@ -1,0 +1,16 @@
+{
+  "name": "feedback-app",
+  "version": "1.0.0",
+  "author": "Ekber A",
+  "scripts": {
+    "build": "webpack watch",
+    "dev-server": "webpack serve --open"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.3"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3"
+  }
+}

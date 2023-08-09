@@ -1,0 +1,590 @@
+body #app > .details-page {
+  width: 100%;
+  max-width: 810px;
+  padding: 0 40px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+body #app > .details-page > .top-bar {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  margin-bottom: 24px;
+  align-items: center;
+  > .back-link {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+    cursor: pointer;
+  }
+  > .bar-button {
+    background-color: #4661e6;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f2f4fe;
+    text-decoration: none;
+  }
+  > .bar-button:hover{
+    background-color: #7c91f9;
+  }
+}
+body #app > .details-page > .top-bar > .back-link::before {
+  content: "";
+  width: 6px;
+  height: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/dist/img/Path 2.png");
+  margin-right: 16px;
+}
+body #app > .details-page > .chosen-comment{
+  width: 100%;
+}
+body #app > .details-page > .chosen-comment>.suggestion-item {
+  width: 100%;
+
+  display: flex;
+
+  align-items: stretch;
+  background: #fff;
+  border-radius: 10px;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  > .suggestion-upvotes-container {
+    display: flex;
+
+    flex-shrink: 0;
+    margin-right: 40px;
+    > .suggestion-upvotes {
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+      background: #f2f4fe;
+      border-radius: 10px;
+      width: 40px;
+      padding: 14px 0;
+      cursor: pointer;
+      > svg {
+        height: 8px;
+        margin-bottom: 8px;
+      }
+      > span {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: -0.180556px;
+        color: #3a4374;
+      }
+    }
+  }
+  > .suggestion-info {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+    text-decoration: none;
+    > .suggestion-title {
+      font-family: Jost;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: -0.25px;
+      color: #3a4374;
+      margin: 0 0 4px;
+    }
+    > .suggestion-description {
+      font-family: Jost;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      color: #647196;
+      margin: 0 0 12px;
+    }
+    > .suggestion-category {
+      background-color: #f2f4ff;
+      border-radius: 10px;
+      padding: 5px 16px;
+      font-family: Jost;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 19px;
+      color: #4661e6;
+      margin: 0;
+    }
+  }
+  > .suggestion-comments {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    margin-left: 40px;
+
+    flex-shrink: 0;
+    > svg {
+      height: 16px;
+      margin-right: 8px;
+    }
+    > span {
+      font-family: Jost;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: -0.23px;
+      color: #3a4374;
+    }
+  }
+}
+body #app > .details-page > .feedback-comments>.comment-first>.replies{
+  margin-left:50px ;
+  > .comment-first {
+   
+    position: relative;
+    width: 100%;
+margin-top: 40px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(140, 146, 179, 0.25);
+    margin-bottom: 32px;
+    > .comment-info {
+      width: 100%;
+
+      display: flex;
+
+      align-items: center;
+      margin-bottom: 16px;
+      > .image-container {
+        width: 40px;
+        height: 40px;
+        margin-right: 32px;
+
+        flex-shrink: 0;
+      }
+      > .left-side {
+        flex: 1;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+        > .author-name {
+          font-family: Jost;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: -0.194444px;
+          color: #3a4374;
+          margin: 0;
+        }
+        > .author-username {
+          font-family: Jost;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #647196;
+          margin: 0;
+        }
+      }
+      > .right-side {
+        display: flex;
+
+        flex-shrink: 0;
+        > .reply-link {
+          font-family: Jost;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 19px;
+          color: #4661e6;
+          text-decoration: none;
+          margin-left: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+    >.comment-text{
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #647196;
+        margin: 0;
+        padding-left: 72px;
+    }
+  }
+  > .comments-title {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3a4374;
+    margin: 0 0 28px;
+  }
+}
+body #app > .details-page > .feedback-comments {
+  width: 100%;
+  padding: 24px 32px;
+  background: #fff;
+  border-radius: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+  margin-bottom: 24px;
+  > .comments-title {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3a4374;
+    margin: 0 0 28px;
+  }
+  > .comment-first {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(140, 146, 179, 0.25);
+    margin-bottom: 32px;
+    > .comment-info {
+      width: 100%;
+
+      display: flex;
+
+      align-items: center;
+      margin-bottom: 16px;
+      > .image-container {
+        width: 40px;
+        height: 40px;
+        margin-right: 32px;
+
+        flex-shrink: 0;
+      }
+      > .left-side {
+        flex: 1;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+        > .author-name {
+          font-family: Jost;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: -0.194444px;
+          color: #3a4374;
+          margin: 0;
+        }
+        > .author-username {
+          font-family: Jost;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #647196;
+          margin: 0;
+        }
+      }
+      > .right-side {
+        display: flex;
+
+        flex-shrink: 0;
+        > .reply-link {
+          font-family: Jost;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 19px;
+          color: #4661e6;
+          text-decoration: none;
+          margin-left: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+    >.comment-text{
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #647196;
+        margin: 0;
+        padding-left: 72px;
+    }
+  }
+}
+
+body #app > .details-page >.add-comment-form{
+    width: 100%;
+ 
+    display: flex;
+   
+    flex-direction: column;
+
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px 32px;
+    >.form-heading{
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -.25px;
+        color: #3a4374;
+        margin: 0 0 24px;
+    }
+    >.form-textarea{
+        width: 100%;
+    background-color: #f7f8fd;
+    border-radius: 5px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3a4374;
+    border: none;
+
+    appearance: none;
+    outline-color: #4661e6;
+    min-height: 96px;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    }
+    >.bottom-line{
+        width: 100%;
+    
+    display: flex;
+  
+    align-items: center;
+   
+    justify-content: space-between;
+    >.remaining{
+        font-family: Jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #647196;
+    margin: 0;
+    }
+    >.form-submit{
+        background-color: #ad1fea;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f2f4fe;
+   
+    transition: all .2s ease-out;
+    cursor: pointer;
+    border: none;
+   
+    appearance: none;
+    }
+    >.form-submit:hover{
+      background-color: #c75af6;
+    }
+    }
+}
+body #app .details-page .feedback-comments .comment-first .comment-reply-form {
+  display: none;
+  width: 100%;
+  margin-top: 24px;
+  padding-left: 72px;
+
+ 
+ 
+  align-items: flex-start;
+
+  justify-content: space-between;
+}
+body #app .details-page .feedback-comments .comment-first .comment-reply-form .form-textarea {
+  width: 100%;
+  background-color: #f7f8fd;
+  border-radius: 5px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3a4374;
+  border: none;
+
+  appearance: none;
+  outline-color: #4661e6;
+  min-height: 96px;
+  padding: 16px 24px;
+}
+body #app .details-page .feedback-comments .comment-first .comment-reply-form .form-button {
+  background-color: #ad1fea;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f2f4fe;
+  text-decoration: none;
+ 
+  appearance: none;
+  outline: none;
+  border: 0;
+
+  flex-shrink: 0;
+  margin-left: 16px;
+  cursor: pointer;
+}
+body #app .details-page .feedback-comments .comment-first .comment-reply-form .form-button:hover {
+  background-color: #c75af6;
+}
+
+
+@media (max-width: 767px){
+
+  body #app {
+      margin: 0;
+  }
+  body #app .details-page {
+    padding: 24px;
+}
+body #app .details-page .top-bar .back-link {
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .details-page .top-bar .bar-button {
+  padding: 10px 16px;
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .details-page .suggestion-item {
+  padding: 24px;
+  margin-bottom: 16px;
+ 
+  flex-wrap: wrap;
+  
+  align-items: center;
+ 
+  justify-content: space-between;
+}
+body #app .details-page .suggestion-item .suggestion-info {
+
+  order: 1;
+  width: 100%;
+  margin-bottom: 16px;
+
+  flex: none;
+}
+
+body #app .details-page .suggestion-item .suggestion-info .suggestion-title {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+body #app .details-page .suggestion-item .suggestion-info .suggestion-description {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+body #app .details-page .suggestion-item .suggestion-comments {
+
+  order: 3;
+  margin-left: 0;
+}
+body #app .details-page .suggestion-item .suggestion-upvotes-container {
+
+  order: 2;
+  margin-right: 0;
+}
+body #app .details-page .suggestion-item .suggestion-upvotes-container .suggestion-upvotes {
+  width: auto;
+  padding: 6px 12px 6px 16px;
+
+  flex-direction: row;
+}
+body #app .details-page .feedback-comments {
+  padding: 24px;
+}
+body #app .details-page .feedback-comments .comments-title {
+  margin-bottom: 24px;
+}
+body #app .details-page .feedback-comments .comment-first .comment-info .image-container {
+  margin-right: 16px;
+}
+body #app .details-page .feedback-comments .comment-first .comment-info .left-side .author-name {
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .details-page .feedback-comments .comment-first .comment-info .left-side .author-username {
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .details-page .feedback-comments .comment-first .comment-text {
+  padding: 0;
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .details-page .add-comment-form .bottom-line .form-submit {
+  
+  font-size: 13px;
+  line-height: 19px;
+  padding: 10px;
+}
+}

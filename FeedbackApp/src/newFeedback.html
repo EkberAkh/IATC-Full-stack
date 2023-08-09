@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Feedback</title>
+   
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Jost:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="app" id="app">
+        <section class="add-page">
+          <a class="back-link">Go Back</a>
+          <section class="add-form">
+            <img src="img/Group 4 (1).png" alt="" />
+            <h3 class="form-title">Create New Feedback</h3>
+            <section class="input-group">
+              <p class="input-label">Feedback Title</p>
+              <p class="input-description">Add a short, descriptive headline</p>
+              <input type="text" class="form-input" /><!---->
+            </section>
+            <section class="input-group">
+              <p class="input-label">Category</p>
+              <p class="input-description">
+                Choose a category for your feedback
+              </p>
+              <select class="form-select">
+                <option value=""></option>
+                <option value="feature">Feature</option>
+                <option value="ui">UI</option>
+                <option value="ux">UX</option>
+                <option value="enhancement">Enhancement</option>
+                <option value="bug">Bug</option></select
+              ><!---->
+            </section>
+           
+            <section class="input-group">
+              <p class="input-label">Feedback Detail</p>
+              <p class="input-description">
+                Include any specific comments on what should be improved, added,
+                etc.
+              </p>
+              <textarea class="form-textarea"></textarea
+              ><!---->
+            </section>
+            <section class="form-buttons">
+              <section class="side">
+               
+              </section>
+              <section class="side">
+                <button class="button-cancel">Cancel</button
+                ><button class="button-submit">Add Feedback</button>
+              </section>
+            </section>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    
+  </body>
+</html>

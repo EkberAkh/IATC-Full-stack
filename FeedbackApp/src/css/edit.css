@@ -1,0 +1,256 @@
+body #app > .add-page {
+  width: 100%;
+  max-width: 620px;
+  padding: 0 40px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  > .back-link {
+    display: flex;
+
+    align-items: center;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+    margin-bottom: 68px;
+    cursor: pointer;
+  }
+  > .add-form {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    padding: 52px 42px 40px;
+    > img {
+      position: absolute;
+      left: 42px;
+      top: 0;
+      height: 56px;
+
+      transform: translateY(-50%);
+    }
+    > .form-title {
+      font-family: Jost;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      letter-spacing: -0.33px;
+      color: #3a4374;
+      margin: 0 0 40px;
+    }
+    > .input-group {
+      width: 100%;
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: flex-start;
+      margin-bottom: 24px;
+      > .input-label {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.194444px;
+        color: #3a4374;
+        margin: 0 0 2px;
+      }
+      > .input-description {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #647196;
+        margin: 0 0 16px;
+      }
+      > .form-input {
+        width: 100%;
+        background-color: #f7f8fd;
+        border-radius: 5px;
+        padding: 12px 24px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #3a4374;
+        border: none;
+
+        appearance: none;
+        outline-color: #4661e6;
+      }
+      > .form-select {
+        width: 100%;
+        background-color: #f7f8fd;
+        border-radius: 5px;
+        padding: 12px 24px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #3a4374;
+        border: none;
+
+        outline-color: #4661e6;
+      }
+      > .form-textarea {
+        width: 100%;
+        background-color: #f7f8fd;
+        border-radius: 5px;
+        padding: 12px 24px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #3a4374;
+        border: none;
+        min-height: 96px;
+        padding: 16px 24px;
+        appearance: none;
+        outline-color: #4661e6;
+      }
+    }
+    .form-buttons {
+      margin-top: 16px;
+      width: 100%;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+      > .side {
+        display: flex;
+
+        align-items: center;
+        >button{
+            border-radius: 10px;
+    padding: 12px 24px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f2f4fe;
+   
+    transition: all .2s ease-out;
+    cursor: pointer;
+    border: none;
+
+    appearance: none;
+        }
+        >.button-delete{
+            background-color: #d73737;
+        }
+        >.button-cancel{
+          background-color: #3a4374;
+            margin-right: 16px;
+        }
+        >.button-delete:hover{
+          background-color: #e98888;
+        }
+        >.button-cancel:hover{
+          background-color: #656ea3;
+        }
+        >.button-submit{
+            background-color: #ad1fea;
+        }
+        >.button-submit:hover{
+          background-color: #c75af6;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767px){
+
+  body #app {
+      margin: 0;
+  }
+  body #app .add-page {
+    max-width: 100%;
+    padding: 34px 24px 77px;
+}
+body #app .add-page .back-link {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 35px;
+}
+body #app .add-page .add-form {
+  padding: 44px 24px 24px;
+}
+body #app .add-page .add-form .form-icon {
+  left: 24px;
+  height: 40px;
+}
+body #app .add-page .add-form .form-title {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+body #app .add-page .add-form .input-group .input-label {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 3px;
+}
+body #app .add-page .add-form .input-group .input-description {
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .add-page .add-form .input-group .form-input, .add-page .add-form .input-group .form-select, .add-page .add-form .input-group .form-textarea {
+  padding: 16px;
+  font-size: 13px;
+  line-height: 19px;
+}
+body #app .add-page .add-form .form-buttons {
+
+  flex-direction: column-reverse;
+}
+body #app .add-page .add-form .form-buttons .side {
+  width: 100%;
+ 
+  flex-direction: column-reverse;
+}
+body #app .add-page .add-form .form-buttons .side {
+  width: 100%;
+
+  flex-direction: column-reverse;
+}
+body #app .add-page .add-form .form-buttons button {
+  width: 100%;
+  font-size: 13px;
+  line-height: 19px;
+  margin-right: 0;
+  padding: 10px;
+}
+body #app .add-page .add-form .form-buttons .button-cancel {
+  margin-right: 0!important;
+}
+body #app .add-page .add-form .form-buttons .button-submit {
+  margin-bottom: 16px;
+}
+body #app .add-page .add-form .form-buttons .button-delete {
+  margin-top: 16px;
+}
+}
